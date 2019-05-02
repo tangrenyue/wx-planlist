@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="header">
+    <image src="../../images/plus.png" bindtap="addTodoHandle"></image>
+    <input type="text" placeholder="Add to plan..." value="{{ input }}" bindinput="inputChangeHandle" bindconfirm="addTodoHandle"/>
+  </view>
+  <block wx:if="{{ todos.length }}">
+    <view class="todos">
+      <view class="item{{ item.completed ? ' completed' : '' }}" wx:for="{{ todos }}" wx:key="{{ index }}" bindtap="toggleTodoHandle" data-index="{{ index }}">
+        <icon type="{{ item.completed ? 'success' : 'circle' }}"/>
+        <text>{{ item.name }}</text>
+        <icon type="clear" size="16" catchtap="removeTodoHandle" data-index="{{ index }}"/>
+      </view>
+    </view>
+    <view class="footer">
+      <text bindtap="toggleAllHandle">Toggle all</text>
+      <text wx:if="{{ leftCount }}">{{ leftCount }} {{ leftCount > 1 ? 'items' : 'item' }} left</text>
+      <text bindtap="clearHandle">Clear completed</text>
+    </view>
+  </block>
+ <block wx:else>
+    <view class="empty">
+      <text class="title">欢迎</text>
+      <text class="content">There's no more plans left.</text>
+    </view>
+  </block>
+</view>
