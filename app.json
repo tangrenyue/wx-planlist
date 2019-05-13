@@ -1,12 +1,38 @@
 {
   "pages": [
-    "pages/todos/todos"
+    "pages/index/index",
+    "pages/todos/todos",
+    "pages/personal/personal",
+    "pages/square/square"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "TODOS",
+    "navigationBarTitleText": "ToolBox",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#F8F8FA",
+    "borderStyle": "white",
+    "color": "#bfbfbf",
+    "selectedColor": "#026e00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/icons/tabbar/page-index.png",
+        "selectedIconPath": "image/icons/tabbar/page-index-color.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "image/icons/tabbar/page-personal.png",
+        "selectedIconPath": "image/icons/tabbar/page-personal-color.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "loading": "./components/loading/loading"
   },
   "sitemapLocation": "sitemap.json"
 }

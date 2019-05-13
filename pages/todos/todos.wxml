@@ -1,6 +1,6 @@
 <view class="container">
   <view class="header">
-    <image src="../../images/plus.png" bindtap="addTodoHandle"></image>
+    <image src="../../image/plus.png" bindtap="addTodoHandle"></image>
     <input type="text" placeholder="Add to plan..." value="{{ input }}" bindinput="inputChangeHandle" bindconfirm="addTodoHandle"/>
   </view>
   <block wx:if="{{ todos.length }}">

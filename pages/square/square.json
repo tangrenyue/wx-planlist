@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "趣图",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 200,
+  "usingComponents": {
+  }
+}

@@ -1,10 +1,8 @@
    Page({
   data: {
-    // 文本框的数据模型
     input: '',
-    // 任务清单数据模型
     todos: [
-      { name: 'Drinking', completed: false },
+      { name: 'Reading', completed: false },
       { name: 'Jogging', completed: true },
       { name: 'Studying', completed: false }
     ],
@@ -22,7 +20,7 @@
     // 当添加按钮点击事件发生时执行的函数
     if (!this.data.input) return
     var todos = this.data.todos
-    todos.push({
+    todos.unshift({
       name: this.data.input,
       completed: false
     })
