@@ -13,8 +13,8 @@
   <view class="page__bd">
     <!-- 应用 -->
     <view class="weui-grids">
-      <block wx:for="{{pageCards}}" wx:key="index" data-page="{{item.name}}" bindtap="gotoPage">
-        <navigator class="weui-grid" hover-class="weui-grid_active">
+      <block wx:for="{{pageCards}}" wx:key="index">
+        <navigator class="weui-grid" hover-class="weui-grid_active" data-index='{{index}}' bindtap='onNavigatorTap'>
           <image class="weui-grid__icon" src='{{"../../image/icons/application/"+item.icon}}' />
           <view class="weui-grid__label">{{item.text}}</view>
         </navigator>

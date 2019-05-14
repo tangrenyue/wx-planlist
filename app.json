@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/todos/todos",
     "pages/personal/personal",
-    "pages/square/square"
+    "pages/square/square",
+    "pages/cal/cal",
+    "pages/calhistory/list"
   ],
   "window": {
     "backgroundTextStyle": "light",
