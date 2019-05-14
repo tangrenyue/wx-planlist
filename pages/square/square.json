@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "趣图",
+  "navigationBarTitleText": "趣图广场",
   "enablePullDownRefresh": true,
   "onReachBottomDistance": 200,
   "usingComponents": {

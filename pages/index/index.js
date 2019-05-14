@@ -27,7 +27,7 @@ Page({
       icon: 'application-stock.png'
     }, {
       name: 'todos',
-      text: 'todo列表',
+      text: '待办清单',
       icon: 'application-weather.png'
     } ]
   },
@@ -70,7 +70,7 @@ Page({
       })
     } else if (item.name == 'translate') {
       wx.navigateTo({
-        url: '../translate/translate',
+        url: '../translate/index',
       })
     }
   }

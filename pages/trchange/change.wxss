@@ -1,0 +1,41 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color: #1B3409;
+  background: #f2f6fc;
+}
+
+.page-change {
+  background-color: #fff;
+}
+
+.title {
+  color: #c5c8ce;
+  padding: 20rpx 40rpx;
+  border-bottom: 1rpx solid beige;
+  font-size: 28rpx;
+}
+
+.item {
+  padding: 20rpx 40rpx;
+  border-top: 1rpx solid beige;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.item .text {
+  flex: 1;
+}
+
+.item .icon-currect {
+  padding-top: 7rpx;
+}
+
+.view-hover {
+  background-color: #e5ccff !important;
+}

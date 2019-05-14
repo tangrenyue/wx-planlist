@@ -1,4 +1,6 @@
-const apis = require('../../utils/apis');
+import {
+  squareurl
+} from '../../utils/apis.js'
 const util = require('../../utils/util');
 
 Page({
@@ -80,7 +82,7 @@ Page({
   // 获取列表数据
   getLists(callback) {
     wx.fetch({
-      url: apis.square,
+      url: squareurl,
       data: {
         pageSize: this.limit,
         pageIndex: this.page,

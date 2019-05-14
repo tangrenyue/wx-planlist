@@ -6,7 +6,10 @@
     "pages/square/square",
     "pages/cal/cal",
     "pages/calhistory/list",
-    "pages/postalCode/postalCode"
+    "pages/postalCode/postalCode",
+    "pages/translate/index",
+    "pages/trchange/change",
+    "pages/trhistory/history"
   ],
   "window": {
     "backgroundTextStyle": "light",

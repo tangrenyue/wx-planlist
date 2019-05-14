@@ -1,0 +1,39 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color: #1B3409;
+  background: #f2f6fc;
+}
+
+.page-history {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #c5c8ce;
+  padding: 20rpx 40rpx;
+  border-bottom: 1rpx solid beige;
+  font-size: 28rpx;
+}
+
+.item {
+  padding: 20rpx 40rpx;
+  border-top: 1rpx solid beige;
+  display: flex;
+  flex-direction: column;
+  color: rgb(133, 9, 204);
+}
+
+.item .query {
+  color: #8995a1;
+}
+
+.view-hover {
+  background-color: #e5ccff !important;
+}
