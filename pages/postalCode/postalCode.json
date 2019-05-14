@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "邮编查询",
+  "usingComponents": {
+    "van-popup": "../../components/popup/index",
+    "van-tab": "../../components/tab/index",
+    "van-tabs": "../../components/tabs/index",
+    "wux-accordion-group": "../../components/accordion-group/index",
+    "wux-accordion": "../../components/accordion/index"
+  }
+}

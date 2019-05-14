@@ -5,7 +5,8 @@
     "pages/personal/personal",
     "pages/square/square",
     "pages/cal/cal",
-    "pages/calhistory/list"
+    "pages/calhistory/list",
+    "pages/postalCode/postalCode"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,5 +1,5 @@
-const apis = require('../../lib/apis');
-const util = require('../../lib/util');
+const apis = require('../../utils/apis');
+const util = require('../../utils/util');
 
 Page({
   data: {
