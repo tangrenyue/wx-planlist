@@ -131,5 +131,5 @@ App({
   appConfig: {
     appHomePath: '/pages/index/index' // 自定义导航首页路径
   },
-  version: 'v1.0.0',
+  version: 'v1.0.1',
 })

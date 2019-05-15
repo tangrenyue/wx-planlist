@@ -1,7 +1,6 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/todos/todos",
     "pages/personal/personal",
     "pages/square/square",
     "pages/cal/cal",

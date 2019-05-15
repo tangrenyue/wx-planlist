@@ -1,4 +1,3 @@
-
 const util = require('../../utils/util');
 const CLunar = require('../../utils/chinese-lunar');
 
@@ -25,11 +24,7 @@ Page({
       name: 'cal',
       text: '计算器',
       icon: 'application-stock.png'
-    }, {
-      name: 'todos',
-      text: '待办清单',
-      icon: 'application-weather.png'
-    } ]
+    }]
   },
   onShareAppMessage() {
     return {
@@ -55,10 +50,6 @@ Page({
     if (item.name == 'square') {
       wx.navigateTo({
         url: '../square/square',
-      })
-    } else if (item.name == 'todos') {
-      wx.navigateTo({
-        url: '../todos/todos',
       })
     } else if (item.name == 'cal') {
       wx.navigateTo({
