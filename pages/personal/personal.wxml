@@ -32,11 +32,6 @@
     </view>
   </view>
   <view class="module-lists">
-    <!-- <view class="module main-icon more-icon" hover-class="hover">
-        <view class="list-icon setting"><text class="icon-cnode cnode-mbri-setting"></text></view>
-        <view class="main-text">设置</view>
-        <view class="more-icon"><text class="icon-cnode cnode-you"></text></view>
-      </view> -->
     <view class="module main-icon" hover-class="hover">
       <view class="list-icon version">
         <text class="icon-cnode cnode-yiwen"></text>

@@ -1,3 +1,9 @@
+page {
+  height: 100%;
+  overflow-x: hidden;
+  background: #eee
+}
+
 .page-personal {
   height: 100%
 }
